@@ -5,25 +5,32 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "React Native Development Intern",
+    cardImage: "assets/images/experience-page/lazytrunk.png",
+    place: "Lazy Trunk",
+    time: "(Dec, 2022 - March, 2023)",
+    desp: "<li>As an intern in React Native, I designed and implemented game logic, user interfaces, and real-time multiplayer functionality using Firebase services.</li><li>I delivered high-quality code and demonstrated proficiency in React Native.</li><li>In addition to my game development work, I also gained experience working with various Firebase services like Firestore, Analytics, Realtime Database, Push Notification, Crashlytics, Dynamic Links and Authentication.</li><li>I also worked on integrating Google Authentication into the apps I developed.</li><li>My projects included developing games such as Guess the Brand, Picolo, Guess the Riddle, Trivia and Party Pal.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Vice President",
+    cardImage: "assets/images/experience-page/aces.png",
+    place: "Association of Computer Engineering Students",
+    time: "(June, 2021 - July, 2022)",
+    desp: "<li>Responsible for planning, executing and carrying out all the activities of the club.</li><li>Led a team of 43 members with the goal of enhancing professional development and personal growth.</li><li>Taken initiatives to increase student engagement and collaboration on campus by organizing many webinars and seminars.</li><li>Represented the club to the college administration and other outside organizations.</li><li>Organized a PAN-India level coding event, Winter Code Stack, to help students get hands-on experience in coding.</li><li>Collaborated with faculty and staff to plan and implement student development projects and initiatives under the flagship event called Archivals Fest, which includes four sub-events.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "CSI Representative",
+    cardImage: "assets/images/experience-page/csi.png",
+    place: "Computer Society of India",
+    time: "(June, 2020 - Jun, 2021)",
+    desp: "<li>Interacted with students within the college as well as students from other colleges and promoting and explaining the various events organized by our club.</li><li>Represented the Computer Society of India at various events and conferences.</li><li>Coordinated with the club members and ensuring smooth execution of events.</li><li>Provided support to the club's management team in planning and organizing various events. Participated in club meetings and provided suggestions for the club's growth and development.</li>",
+  },
+  {
+    title: "Technical Head",
+    cardImage: "assets/images/experience-page/aces.png",
+    place: "Association of Computer Engineering Students",
+    time: "(June, 2020 - Jun, 2021)",
+    desp: "<li> Responsible for maintaining the committee's website, publishing blogs, managing online coding events, creating posters and flyers for the events and organizing technical activities.</li><li> Ensured that the events were properly advertised and that the coding challenges were appropriate and engaging.</li><li>Gained valuable technical experience, while also helping to foster a strong sense of community among the Committee members.</li><li>Represented the club to the college administration and other outside organizations.</li>",
   },
 ];
 
